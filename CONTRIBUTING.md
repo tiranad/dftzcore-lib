@@ -231,6 +231,19 @@ All modules should include a developer guide and API reference. The API referenc
 
 Please proofread documentation to avoid unintentional spelling and grammatical mistakes before submitting a pull request.
 
+## Commit message and Pull Request title format
+
+We follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification for commit messages and expect from you the same.
+The commit message should be structured as follows:
+
+```
+<type>[optional scope]: <description>
+[optional body]
+[optional footer(s)]
+```
+
+The list of available types can be found [here](https://github.com/commitizen/conventional-commit-types/blob/v2.2.0/index.json).
+
 ## Pull Request Workflow
 
 Our workflow is based on GitHub's pull requests. We use feature branches, prepended with: `test`, `feature`, `fix`, `refactor`, or `remove` according to the change the branch introduces. Some examples for such branches are:
